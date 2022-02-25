@@ -57,7 +57,7 @@ def main() -> None:
     # exit programme with correct answer when needed
     if len(sys.argv) >= 2:
         if any([
-            _argument_value == '-s', _argument_value == '-surrender',
+            _argument_value == '-s', _argument_value == '--surrender',
         ]):
             exec(player_surrendered=True)
 
