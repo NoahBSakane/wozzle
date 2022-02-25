@@ -1,4 +1,6 @@
 .DS_Store
 *.spec
+*.tar.gz
+*.txt
 build
 dist
